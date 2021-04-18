@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300" src="docs/hashvatar.png" />
+    <img width="400" src="docs/hashvatar.png" />
 </p>
 
 # Hashvatar
