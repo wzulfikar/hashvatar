@@ -1,0 +1,6 @@
+{
+  "rewrites": [{ "source": "/(.+)", "destination": "/api" }],
+  "redirects": [
+    { "source": "/", "destination": "https://github.com/wzulfikar/hashvatar" }
+  ]
+}
