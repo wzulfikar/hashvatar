@@ -20,9 +20,9 @@ https://hashvatar.vercel.app/{yourhandler}
 
 Example:
 
-- [https://hashvatar.vercel.app/fortysevenfx](https://hashvatar.vercel.app/fortysevenfx)
+- [https://hashvatar.vercel.app/fortysevenfx](https://hashvatar.vercel.app/fortysevenfx)  
   <img width="50" src="https://hashvatar.vercel.app/fortysevenfx"/>
-- [https://hashvatar.vercel.app/wzulfikar](https://hashvatar.vercel.app/wzulfikar)
+- [https://hashvatar.vercel.app/wzulfikar](https://hashvatar.vercel.app/wzulfikar)  
   <img width="50" src="https://hashvatar.vercel.app/wzulfikar"/>
 
 _That's it!_
