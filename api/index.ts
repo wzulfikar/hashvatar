@@ -5,7 +5,9 @@ import { createSvg } from "./_lib/createSvg";
 
 function sendFile(res: ServerResponse, svg: string) {
   res.statusCode = 200;
+
   res.setHeader("Content-Type", `image/svg+xml`);
+  res.setHeader("Content-Length", Buffer.byteLength(svg, "utf8"));
   res.setHeader(
     "Cache-Control",
     `public, immutable, no-transform, s-maxage=31536000, max-age=31536000`
