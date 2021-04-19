@@ -29,13 +29,13 @@ https://hashvatar.vercel.app/wzulfikar/stagger
 - [https://hashvatar.vercel.app/fortysevenfx](https://hashvatar.vercel.app/fortysevenfx)  
   <img width="50" src="https://hashvatar.vercel.app/fortysevenfx/normal"/> variant: `normal`
   <img width="50" src="https://hashvatar.vercel.app/fortysevenfx"/> variant: `stagger`
-  <img width="50" src="https://hashvatar.vercel.app/fortysevenfx/spider"/> variant: `spider`
+  <img width="50" src="https://hashvatar.vercel.app/fortysevenfx/spider"/> variant: `spider`  
   <img width="50" src="https://hashvatar.vercel.app/fortysevenfx/flower"/> variant: `flower`
   <img width="50" src="https://hashvatar.vercel.app/fortysevenfx/flower"/> variant: `gem`
 - [https://hashvatar.vercel.app/wzulfikar](https://hashvatar.vercel.app/wzulfikar)  
   <img width="50" src="https://hashvatar.vercel.app/wzulfikar/normal"/> variant: `normal`
   <img width="50" src="https://hashvatar.vercel.app/wzulfikar"/> variant: `stagger`
-  <img width="50" src="https://hashvatar.vercel.app/wzulfikar/spider"/> variant: `spider`
+  <img width="50" src="https://hashvatar.vercel.app/wzulfikar/spider"/> variant: `spider`  
   <img width="50" src="https://hashvatar.vercel.app/wzulfikar/flower"/> variant: `flower`
   <img width="50" src="https://hashvatar.vercel.app/wzulfikar/gem"/> variant: `gem`
 
