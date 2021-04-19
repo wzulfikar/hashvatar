@@ -12,7 +12,7 @@ Create hash avatar of your handler. Inspired from [this tweet](https://twitter.c
 
 ## Usage
 
-Use this format in to get your hashvatar:
+Use this format to get your hashvatar:
 
 ```
 https://hashvatar.vercel.app/{yourhandler}
