@@ -1,3 +1,4 @@
+import crypto from "crypto";
 import { IncomingMessage, ServerResponse } from "http";
 import { b64, utf8, base64ToHex } from "@47ng/codec";
 
@@ -15,8 +16,8 @@ function sendFile(res: ServerResponse, svg: string) {
   res.end(svg);
 }
 
-function getHandlerHex(handler: string) {
-  return base64ToHex(b64.encode(utf8.encode(handler))).padEnd(64, "0");
+function getHandlerHash(handler: string) {
+  return crypto.createHash("sha256").update(handler).digest("hex");
 }
 
 const variants = ["normal", "stagger", "spider", "flower", "gem"];
@@ -41,8 +42,12 @@ export default async function handler(
     }
   }
 
+  const handlerHash = getHandlerHash(handler);
+
+  console.log("handler:", { handler, hash: handlerHash });
+
   const svg = createSvg({
-    hash: getHandlerHex(handler),
+    hash: handlerHash,
     variant: variant as any,
   });
 
