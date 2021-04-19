@@ -19,16 +19,31 @@ function getHandlerHex(handler: string) {
   return base64ToHex(b64.encode(utf8.encode(handler))).padEnd(64, "0");
 }
 
+const variants = ["normal", "stagger", "spider", "flower", "gem"];
+
 export default async function handler(
   req: IncomingMessage,
   res: ServerResponse
 ) {
   const pathname = req.url;
 
-  const handler = pathname.substr(1).trim().replace(".svg", "");
+  let handler = pathname.substr(1).trim().replace(".svg", "");
+
+  // Type can be normal, stagger, spider, flower, gem
+  let variant = "stagger";
+
+  if (handler.includes("/")) {
+    const split = handler.split("/");
+    handler = split[0];
+
+    if (variants.includes(split[1])) {
+      variant = split[1];
+    }
+  }
 
   const svg = createSvg({
     hash: getHandlerHex(handler),
+    variant: variant as any,
   });
 
   sendFile(res, svg);
